@@ -10,7 +10,7 @@ var Bot = new CorpusBot({
 
    var retweet = function() {
     var params = {
-        q: 'corpus',  // REQUIRED
+        q: 'corpus -christie',  // REQUIRED
         result_type: 'recent',
         lang: 'en'
     }
