@@ -10,7 +10,7 @@ var Bot = new CorpusBot({
 
    var retweet = function() {
     var params = {
-        q: 'corpus -christie',  // REQUIRED
+        q: 'corpus -christie    ',  // REQUIRED
         result_type: 'recent',
         lang: 'en'
     }
@@ -42,6 +42,6 @@ var Bot = new CorpusBot({
 // grab & retweet as soon as program is running...
 retweet();
 // retweet in every 15 minutes
-setInterval(retweet, 900000);
+setInterval(retweet, 300000);
   
 
