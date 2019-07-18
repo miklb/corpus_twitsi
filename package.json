@@ -17,7 +17,7 @@
     "url": "https://github.com/miklb/corpus_twitsi/issues"
   },
   "homepage": "https://github.com/miklb/corpus_twitsi#readme",
-  "devDependencies": {
+  "dependencies": {
     "node-twitterbot": "^0.2.2",
     "twit": "^2.2.11"
   }
