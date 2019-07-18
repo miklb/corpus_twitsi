@@ -42,6 +42,6 @@ var Bot = new CorpusBot({
 // grab & retweet as soon as program is running...
 retweet();
 // retweet in every 15 minutes
-setInterval(retweet, 300000);
+setInterval(retweet, 9000000);
   
 
