@@ -34,7 +34,7 @@ var Bot = new CorpusBot({
         }
         // if unable to Search a tweet
         else {
-          console.log('err');
+          console.log(err);
         }
     });
 }
