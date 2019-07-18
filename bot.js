@@ -34,7 +34,7 @@ var Bot = new CorpusBot({
         }
         // if unable to Search a tweet
         else {
-          console.log('Something went wrong while SEARCHING...');
+          console.log('err');
         }
     });
 }
