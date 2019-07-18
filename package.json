@@ -1,0 +1,24 @@
+{
+  "name": "corpus_twitsi_bot",
+  "version": "1.0.0",
+  "description": "a bot that rewteets the use of corpus",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miklb/corpus_twitsi.git"
+  },
+  "author": "Michael Bishop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miklb/corpus_twitsi/issues"
+  },
+  "homepage": "https://github.com/miklb/corpus_twitsi#readme",
+  "devDependencies": {
+    "node-twitterbot": "^0.2.2",
+    "twit": "^2.2.11"
+  }
+}
